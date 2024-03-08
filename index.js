@@ -163,7 +163,7 @@
 // let seconds = 35;
 // let hours = 4;
 
-// var result = timeToSeconds(hours, minutes, seconds);
+// let result = timeToSeconds(hours, minutes, seconds);
 
 // if (result !== null) {
 //   console.log(
