@@ -202,3 +202,29 @@
 // выполнении задания используйте функции из предыдущих 2-х заданий: сначала обе даты переведите в секунды,
 // узнайте разницу в секундах, а потом разницу переведите
 // обратно в «чч:мм:сс»
+
+// function differenceBetweenDate(
+//   hours1,
+//   minutes1,
+//   seconds1,
+//   hours2,
+//   minutes2,
+//   seconds2
+// ) {
+//   const timeStart = hours1 * 3600 + minutes1 * 60 + seconds1;
+//   const timeEnd = hours2 * 3600 + minutes2 * 60 + seconds2;
+
+//   const difference = Math.abs(timeEnd - timeStart);
+//   const hours = Math.floor(difference / 3600);
+//   const minutes = Math.floor((difference % 3600) / 60);
+//   const seconds = Math.floor(difference % 60);
+//   return {
+//     hours: hours,
+//     minutes: minutes,
+//     seconds: seconds,
+//   };
+// }
+
+// const result = differenceBetweenDate(12, 23, 30, 11, 22, 40);
+
+// console.log(result);
